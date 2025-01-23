@@ -1,0 +1,11 @@
+[package]
+name = "rtrb-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+rtrb = "0.3.1"
+#rtrb = { git = "https://github.com/mgeier/rtrb", branch = "main" }
+cpal = { git = "https://github.com/RustAudio/cpal", branch = "master" }
+chrono = "0.4.39"
